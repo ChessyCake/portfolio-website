@@ -4,10 +4,20 @@ body{
     margin: 0;
     padding: 0;
      background-image: url(/assets/Background_IMG.jpg);
+     animation: bganimate infinite ease-in-out 2s;
      background-repeat: no-repeat;
      background-size: 100% 100%;
      min-height: 100vh;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
 }
+
+
+@keyframes bganimate{
+
+}
+
+
 
 a {
     text-decoration: none;
@@ -53,11 +63,44 @@ header .navbar a:hover{
 /* 
 https://coolors.co/1d68a2-ebf6f3-1c649d-144b83-3ba1cc */
 
+.container{
+    padding: 30vh 30vh;
+    margin-left: 20vw;
+}
 
+.container .landing{
+    color: white;
+    font-size: large;
+}
 
+#exclamation{
+    color: red;
+    
+}
 
+#ello{
+    color: yellow;
+}
+#yan{
+    color: #ffde1a;
+}
 
+#an{
+    color: 	#ADFF2F;
+}
+.decorations{
+    color: #FFD700;
+}
+#ss{
+    color: #FFA500;
+}
+#ide{
+    color: #FFD700;
+}
 
+#am{
+    color: 	#ADFF2F;
+}
 .foot{
     padding: 20px;
     background-color: #D8EEF1;
